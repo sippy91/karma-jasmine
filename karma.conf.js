@@ -9,6 +9,7 @@ module.exports = function(config) {
 
     browsers: process.env.TRAVIS ? ['Firefox'] : ['Chrome'],
 
-    autoWatch: true
+    autoWatch: true,
+    singleRun:true
   });
 };
